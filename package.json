@@ -26,10 +26,11 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
     "eject": "craco eject",
     "lint": "eslint --ext .js,.jsx src",
-    "lint:fix": "eslint --ext .js,.jsx src --fix"
+    "lint:fix": "eslint --ext .js,.jsx src --fix",
+    "test:e2e": "cypress run",
+    "test:e2e:open": "cypress open"
   },
   "browserslist": {
     "production": [
