@@ -17,6 +17,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
+    'no-param-reassign': 0,
     'react/function-component-definition': [
       2,
       {
@@ -28,7 +29,10 @@ module.exports = {
     'import/resolver': {
       'eslint-import-resolver-custom-alias': {
         alias: {
+          '@api': './src/api',
+          '@config': './src/config',
           '@pages': './src/pages',
+          '@store': './src/store',
         },
         extensions: ['.js', '.jsx'],
       },
