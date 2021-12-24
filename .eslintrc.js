@@ -35,6 +35,7 @@ module.exports = {
           '@config': './src/config',
           '@pages': './src/pages',
           '@store': './src/store',
+          '@validations': './src/validations',
         },
         extensions: ['.js', '.jsx'],
       },
