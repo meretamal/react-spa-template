@@ -1,11 +1,11 @@
 import React from 'react';
-import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import Hero from '@components/layout/hero.component';
 
 export default function HomePage() {
   return (
-    <Container>
+    <Hero navbar>
       <Typography>Home</Typography>
-    </Container>
+    </Hero>
   );
 }
