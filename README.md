@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# React SPA Starter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React SPA with all the cool things you need.
 
-## Available Scripts
+To scaffold this project I used Create React App.
 
-In the project directory, you can run:
+## Setup
+First of all, make a copy of this project by clicking on **"Use this template"**.
 
-### `yarn start`
+Now that you have your own repository, clone it and install its dependencies:
+```bash
+yarn install # npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+If your app will make use of an external API, create a .env file:
+```
+cp .env.example .env
+```
+and add its base url.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Finally, run your app:
+```bash
+yarn start # npm run start
+```
+and visit http://localhost:3000 (you can change the port by adding the `PORT` variable to your .env file).
 
-### `yarn test`
+## Tools and packages
+This template comes with different tools that you will definetly love:
+* [Craco](https://github.com/gsoft-inc/craco) to be able to override Create React App's webpack configuration and add import aliases to the different folders inside the project.
+* [Cypress](https://www.cypress.io/) to develop end to end tests.
+* [Eslint](https://eslint.org/) + [Prettier](https://prettier.io/) to check for syntax errors and enforce a common code style.
+* [Formik](https://formik.org/) + [Yup](https://github.com/jquense/yup) to facilitate forms management and validation.
+* [Material UI](https://mui.com/)
+* [React Router](https://reactrouter.com/) to navigate through different components.
+* [Redux](https://redux.js.org/) + [Redux Toolkit](https://redux-toolkit.js.org/) for state management.
+* [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) to make API requests (I know this is included with Redux Toolkit, but it's such and amazing tool, that I had to give it its own mention).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deploy
+To facilitate the deploying process, you can use [Netlify](https://www.netlify.com/). For this a **\_redirects** file has already been added to the **public** directory.
 
-### `yarn build`
+If you use this tool, not only every commit to the master branch will automatically be deployed, but also a deploy preview will be created with every pull request that you create.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## CI
+This project is configured with [GitHub Actions](https://github.com/features/actions) so that each pull request is checked for eslint offenses and to run the tests.
