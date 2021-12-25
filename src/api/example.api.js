@@ -4,11 +4,11 @@ const exampleApi = baseApi.injectEndpoints({
   tagTypes: ['Example'],
   endpoints: (build) => ({
     getResources: build.query({
-      query: () => '/',
+      query: () => '/resources',
     }),
     createResource: build.mutation({
       query: (body) => ({
-        url: '/example',
+        url: '/resources',
         method: 'POST',
         body,
       }),
