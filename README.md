@@ -30,7 +30,7 @@ This template comes with different tools that you will definetly love:
 * [Cypress](https://www.cypress.io/) to develop end to end tests.
 * [Eslint](https://eslint.org/) + [Prettier](https://prettier.io/) to check for syntax errors and enforce a common code style.
 * [Formik](https://formik.org/) + [Yup](https://github.com/jquense/yup) to facilitate forms management and validation.
-* [Material UI](https://mui.com/)
+* [Material UI](https://mui.com/) to be able to use some awesome predesigned components and an incredible design system.
 * [React Router](https://reactrouter.com/) to navigate through different components.
 * [Redux](https://redux.js.org/) + [Redux Toolkit](https://redux-toolkit.js.org/) for state management.
 * [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) to make API requests (I know this is included with Redux Toolkit, but it's such and amazing tool, that I had to give it its own mention).
