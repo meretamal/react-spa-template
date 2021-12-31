@@ -16,6 +16,7 @@ import reducer from './modules';
 const persistConfig = {
   key: 'root',
   storage,
+  whitelist: ['theme'],
 };
 
 const persistedReducer = persistReducer(persistConfig, reducer);
