@@ -8,15 +8,12 @@ import Hero from '@components/layout/hero.component';
 export default function NotFoundPage() {
   return (
     <Hero
+      navbar
       sx={{
-        minHeight: {
-          xs: 'calc(100vh - 56px)',
-          sm: 'calc(100vh - 64px)',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-        },
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
       }}
     >
       <Typography variant="h1" textAlign="center">
