@@ -4,8 +4,8 @@
     "paths": {
       "@api/*": ["./src/api/¨*"],
       "@assets/*": ["./src/assets/¨*"],
-      "@components": ["./src/components/*"],
-      "@config": ["./src/config/*"],
+      "@components/*": ["./src/components/*"],
+      "@config/*": ["./src/config/*"],
       "@pages/*": ["./src/pages/*"],
       "@store/*": ["./src/store/*"],
       "@validations/*": ["./src/validations/*"]
