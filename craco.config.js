@@ -14,8 +14,6 @@ module.exports = {
     },
   },
   eslint: {
-    eslint: {
-      mode: ESLINT_MODES.file,
-    },
+    mode: ESLINT_MODES.file,
   },
 };
