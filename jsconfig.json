@@ -8,7 +8,6 @@
       "@config/*": ["./src/config/*"],
       "@pages/*": ["./src/pages/*"],
       "@store/*": ["./src/store/*"],
-      "@validations/*": ["./src/validations/*"]
     }
   },
   "exclude": ["node_modules/"]
