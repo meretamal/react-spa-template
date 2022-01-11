@@ -7,7 +7,7 @@
       "@components/*": ["./src/components/*"],
       "@config/*": ["./src/config/*"],
       "@pages/*": ["./src/pages/*"],
-      "@store/*": ["./src/store/*"],
+      "@store/*": ["./src/store/*"]
     }
   },
   "exclude": ["node_modules/"]
