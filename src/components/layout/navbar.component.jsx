@@ -18,11 +18,11 @@ export default function Navbar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, cursor: 'pointer' }}
+            sx={{ cursor: 'pointer' }}
             onClick={() => navigate('/')}
           >
             React SPA Starter
