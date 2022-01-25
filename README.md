@@ -33,6 +33,7 @@ This template comes with different tools that you will definetly love:
 * [Material UI](https://mui.com/) to be able to use some awesome predesigned components and an incredible design system.
 * [React Router](https://reactrouter.com/) to navigate through different components.
 * [Redux](https://redux.js.org/) + [Redux Toolkit](https://redux-toolkit.js.org/) for state management.
+* [Redux persist](https://github.com/rt2zz/redux-persist) to persist state managed by redux.
 * [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) to make API requests (I know this is included with Redux Toolkit, but it's such and amazing tool, that I had to give it its own mention).
 
 ## Deploy
