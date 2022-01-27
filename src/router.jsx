@@ -4,6 +4,7 @@ import Footer from '@components/layout/footer.component';
 import HomePage from '@pages/static/home.page';
 import Navbar from '@components/layout/navbar.component';
 import NotFoundPage from '@pages/errors/not-found.page';
+import SignUpPage from '@pages/auth/sign-up.page';
 
 export default function Router() {
   return (
@@ -11,6 +12,7 @@ export default function Router() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/sign-up" element={<SignUpPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
