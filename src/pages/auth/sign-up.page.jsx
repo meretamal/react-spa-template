@@ -50,6 +50,7 @@ export default function SignUpPage() {
             acceptConditions: false,
           }}
           validationSchema={validationSchema}
+          // onSubmit={(values) => doSomething(values)}
         >
           {({
             values,
