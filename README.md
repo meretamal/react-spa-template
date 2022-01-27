@@ -4,6 +4,8 @@ A React SPA with all the cool things you need.
 
 To scaffold this project I used Create React App.
 
+You can check out a production build of the template in [here](https://elegant-sinoussi-2c4b90.netlify.app/), in case you want to test it before using it.
+
 ## Setup
 First of all, make a copy of this project by clicking on **"Use this template"**.
 
