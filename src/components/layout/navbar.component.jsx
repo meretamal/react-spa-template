@@ -29,6 +29,9 @@ export default function Navbar() {
             React SPA Starter
           </Typography>
           <Box>
+            <Button color="inherit" onClick={() => navigate('/sign-in')}>
+              Sign in
+            </Button>
             <Button color="inherit" onClick={() => navigate('/sign-up')}>
               Sign up
             </Button>
