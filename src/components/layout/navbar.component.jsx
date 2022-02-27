@@ -10,7 +10,7 @@ import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleType } from '@store/modules/theme/theme.slice';
+import { toggleType } from '@/store/modules/theme/theme.slice';
 
 export default function Navbar() {
   const navigate = useNavigate();

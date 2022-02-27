@@ -31,12 +31,7 @@ module.exports = {
     'import/resolver': {
       'eslint-import-resolver-custom-alias': {
         alias: {
-          '@api': './src/api',
-          '@assets': './src/assets',
-          '@components': './src/components',
-          '@config': './src/config',
-          '@pages': './src/pages',
-          '@store': './src/store',
+          '@': './src',
         },
         extensions: ['.js', '.jsx'],
       },

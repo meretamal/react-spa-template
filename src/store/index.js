@@ -10,7 +10,7 @@ import {
   PURGE,
   REGISTER,
 } from 'redux-persist';
-import baseApi from '@api/base.api';
+import baseApi from '@/api/base.api';
 import reducer from './modules';
 
 const persistConfig = {
