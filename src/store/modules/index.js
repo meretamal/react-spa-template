@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import baseApi from '@api/base.api';
+import baseApi from '@/api/base.api';
 import theme from './theme/theme.slice';
 
 export default combineReducers({
