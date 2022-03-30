@@ -22,13 +22,12 @@ and add its base url.
 
 Finally, run your app:
 ```bash
-yarn start # npm run start
+yarn dev # npm run dev
 ```
 and visit http://localhost:3000 (you can change the port by adding the `PORT` variable to your .env file).
 
 ## Tools and packages
 This template comes with different tools that you will definetly love:
-* [Craco](https://github.com/gsoft-inc/craco) to be able to override Create React App's webpack configuration and add import aliases to the different folders inside the project.
 * [Cypress](https://www.cypress.io/) to develop end to end tests.
 * [Eslint](https://eslint.org/) + [Prettier](https://prettier.io/) to check for syntax errors and enforce a common code style.
 * [Formik](https://formik.org/) + [Yup](https://github.com/jquense/yup) to facilitate forms management and validation.
