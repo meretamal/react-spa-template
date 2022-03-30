@@ -2,7 +2,7 @@
 
 A React SPA with all the cool things you need.
 
-To scaffold this project I used Create React App.
+To scaffold this project I used [Vite](https://vitejs.dev/).
 
 You can check out a production build of the template in [here](https://elegant-sinoussi-2c4b90.netlify.app/), in case you want to test it before using it.
 
@@ -16,7 +16,7 @@ yarn install # npm install
 
 If your app will make use of an external API, create a .env file:
 ```
-cp .env.example .env
+cp .env.example .env.local
 ```
 and add its base url.
 
