@@ -2,7 +2,7 @@
 
 A React SPA with all the cool things you need.
 
-To scaffold this project I used Create React App.
+To scaffold this project I used [Vite](https://vitejs.dev/).
 
 You can check out a production build of the template in [here](https://elegant-sinoussi-2c4b90.netlify.app/), in case you want to test it before using it.
 
@@ -16,19 +16,18 @@ yarn install # npm install
 
 If your app will make use of an external API, create a .env file:
 ```
-cp .env.example .env
+cp .env.example .env.local
 ```
 and add its base url.
 
 Finally, run your app:
 ```bash
-yarn start # npm run start
+yarn dev # npm run dev
 ```
 and visit http://localhost:3000 (you can change the port by adding the `PORT` variable to your .env file).
 
 ## Tools and packages
 This template comes with different tools that you will definetly love:
-* [Craco](https://github.com/gsoft-inc/craco) to be able to override Create React App's webpack configuration and add import aliases to the different folders inside the project.
 * [Cypress](https://www.cypress.io/) to develop end to end tests.
 * [Eslint](https://eslint.org/) + [Prettier](https://prettier.io/) to check for syntax errors and enforce a common code style.
 * [Formik](https://formik.org/) + [Yup](https://github.com/jquense/yup) to facilitate forms management and validation.
