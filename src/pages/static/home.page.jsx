@@ -21,7 +21,7 @@ export default function HomePage() {
       >
         React SPA Starter
       </Typography>
-      <Typography variant="h4">
+      <Typography variant="h4" textAlign="center">
         A React template with all the cool things you need
       </Typography>
     </Hero>
