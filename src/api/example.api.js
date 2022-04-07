@@ -1,10 +1,10 @@
 import baseApi from './base.api';
 
 const exampleApi = baseApi.injectEndpoints({
-  tagTypes: ['Example'],
   endpoints: (build) => ({
     getResources: build.query({
       query: () => '/resources',
+      providesTags: [{ type: 'Example', id: 'LIST' }],
     }),
     createResource: build.mutation({
       query: (body) => ({
@@ -12,7 +12,8 @@ const exampleApi = baseApi.injectEndpoints({
         method: 'POST',
         body,
       }),
-      invalidatesTags: ['Example'],
+      invalidatesTags: (result) =>
+        result ? [{ type: 'Example', id: 'LIST' }] : [],
     }),
   }),
   overrideExisting: false,
