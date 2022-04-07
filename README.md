@@ -24,7 +24,7 @@ Finally, run your app:
 ```bash
 yarn dev # npm run dev
 ```
-and visit http://localhost:3000 (you can change the port by adding the `PORT` variable to your .env file).
+and visit http://localhost:3000/.
 
 ## Tools and packages
 This template comes with different tools that you will definetly love:
