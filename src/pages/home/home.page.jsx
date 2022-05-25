@@ -1,6 +1,6 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
-import Hero from '@/components/layout/hero.component';
+import Hero from '@/shared/components/layout/hero.component';
 
 export default function HomePage() {
   return (

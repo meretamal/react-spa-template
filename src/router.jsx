@@ -1,13 +1,13 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Footer from '@/components/layout/footer.component';
-import Hero from '@/components/layout/hero.component';
-import Navbar from '@/components/layout/navbar.component';
+import Footer from '@/shared/components/layout/footer.component';
+import Hero from '@/shared/components/layout/hero.component';
+import Navbar from '@/shared/components/layout/navbar.component';
 
-const HomePage = lazy(() => import('@/pages/static/home.page'));
-const NotFoundPage = lazy(() => import('@/pages/errors/not-found.page'));
-const SignInPage = lazy(() => import('@/pages/auth/sign-in.page'));
-const SignUpPage = lazy(() => import('@/pages/auth/sign-up.page'));
+const HomePage = lazy(() => import('@/pages/home'));
+const NotFoundPage = lazy(() => import('@/pages/not-found'));
+const SignInPage = lazy(() => import('@/pages/sign-in'));
+const SignUpPage = lazy(() => import('@/pages/sign-up'));
 
 export default function Router() {
   return (
