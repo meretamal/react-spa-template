@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { Link as RouterLink } from 'react-router-dom';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
-import Hero from '@/components/layout/hero.component';
+import Hero from '@/shared/components/layout/hero.component';
 
 const validationSchema = Yup.object({
   email: Yup.string().email('Must be a valid email').required('Required'),

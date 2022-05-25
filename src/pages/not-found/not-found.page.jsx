@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import { Link as RouterLink } from 'react-router-dom';
-import Hero from '@/components/layout/hero.component';
+import Hero from '@/shared/components/layout/hero.component';
 
 export default function NotFoundPage() {
   return (

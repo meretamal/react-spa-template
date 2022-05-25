@@ -1,8 +1,8 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Footer from '@/components/layout/footer.component';
-import Hero from '@/components/layout/hero.component';
-import Navbar from '@/components/layout/navbar.component';
+import Footer from '@/shared/components/layout/footer.component';
+import Hero from '@/shared/components/layout/hero.component';
+import Navbar from '@/shared/components/layout/navbar.component';
 
 const HomePage = lazy(() => import('@/pages/home'));
 const NotFoundPage = lazy(() => import('@/pages/not-found'));
