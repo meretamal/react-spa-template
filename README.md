@@ -1,4 +1,4 @@
-# React SPA Starter
+# React SPA Template
 
 A React SPA with all the cool things you need.
 
